@@ -3,7 +3,7 @@ cask "toney" do
   name "toney"
   desc "Toney - a fast, lightweight terminal-based note-taking app"
   homepage "https://sourcewarelab.github.io/Toney/"
-  version "2.2.4"
+  version "2.2.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "toney" do
   on_macos do
     on_intel do
       url "https://github.com/SourcewareLab/Toney/releases/download/v#{version}/toney_darwin_amd64.tar.gz"
-      sha256 "04faa2eb31ac92bbfefde96bb8c5e386379d0b8de4c3ee71cbdc87a1a9e518c4"
+      sha256 "4678b7c4614fae1ac5b723f7be2f583bf9df611413c793658f84a9fabecae315"
     end
     on_arm do
       url "https://github.com/SourcewareLab/Toney/releases/download/v#{version}/toney_darwin_amd64.tar.gz"
-      sha256 "dd2ad5284465dec5fee5b1a287dd24b453dd5ea67e344aa142a3f3d8a59d2eb7"
+      sha256 "c79800cb4784d395317125954af139ca9fb56b5374ab56aa587fec8d301abe34"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/SourcewareLab/Toney/releases/download/v#{version}/toney_darwin_amd64.tar.gz"
-      sha256 "4389eaa57551f55d18a7d4370ced8c7f9c0c1fe21cda07aad28a1c3e9b6ede1f"
+      sha256 "80d04b96d5d34889463939f5729beb2aa9a161ab63b645c5b4271556d1b8514d"
     end
     on_arm do
       url "https://github.com/SourcewareLab/Toney/releases/download/v#{version}/toney_darwin_amd64.tar.gz"
-      sha256 "c693a010212f8777240a28061cbcb079f2ef358727e93c1b3db9fe95fcad17ae"
+      sha256 "759d098dff9027b19453dd14959ed2284bdb65453a31e04f695c7bc46bbfb43c"
     end
   end
 
